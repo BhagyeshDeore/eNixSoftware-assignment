@@ -1,0 +1,12 @@
+.actionContainer {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: white;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}

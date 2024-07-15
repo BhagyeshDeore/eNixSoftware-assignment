@@ -1,0 +1,20 @@
+.userDetailsContainer {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: white;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.userDetailTable {
+  width: 100%;
+}
+
+.userDetailTable th, .userDetailTable td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
