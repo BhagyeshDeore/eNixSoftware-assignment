@@ -11,13 +11,13 @@ interface MainUIProps {
 }
 
 const MainUI = ({ users }: MainUIProps) => {
-  const [selectedUser, setSelectedUser] = useState<User | null>(null);
+  const [selectedUser, setSelectedUser] = useState<User | null>(users.length > 0 ? users[0]:null);
 
-  useEffect(() => {
-    if (users.length > 0) {
-      setSelectedUser(users[0]); 
-    }
-  }, [users]);
+  // useEffect(() => {
+  //   if (users.length > 0) {
+  //     setSelectedUser(users[0]); 
+  //   }
+  // }, [users]);
 
   const handleSelectUser = (user: User) => {
     setSelectedUser(user);

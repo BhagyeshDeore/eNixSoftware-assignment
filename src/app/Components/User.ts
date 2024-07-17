@@ -8,4 +8,8 @@ export interface User {
     mobileNo: number;
     linkedinId: string;
     githubProfile: string;
+    education: {
+      level: string;
+      institute: string;
+    }[];
   }
